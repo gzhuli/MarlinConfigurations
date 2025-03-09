@@ -189,6 +189,7 @@
 #else
   #error "Please specify U20, U20_PLUS, U30, LK1, LK1_PLUS, LK2, or LK4."
 #endif
+//#define CONFIGURABLE_MACHINE_NAME // Add G-code M550 to set/report the machine name
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4

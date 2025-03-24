@@ -1036,9 +1036,6 @@
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
   #define PRINTABLE_RADIUS       85.0     // (mm) Overlord Pro
 
-  // Maximum reachable area
-  #define DELTA_MAX_RADIUS       85.0     // (mm)
-
   // Center-to-center distance of the holes in the diagonal push rods.
   #define DELTA_DIAGONAL_ROD 206.0        // (mm) Overlord Pro
 

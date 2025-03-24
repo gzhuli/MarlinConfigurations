@@ -1062,8 +1062,6 @@
   #if ENABLED(ANYCUBIC_KOSSEL_PLUS)
     // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
     #define PRINTABLE_RADIUS       116.0  // (mm)
-    // Maximum reachable area
-    #define DELTA_MAX_RADIUS       116.0  // (mm)
     // Center-to-center distance of the holes in the diagonal push rods.
     #define DELTA_DIAGONAL_ROD 267        // (mm)
       // Horizontal offset from middle of printer to smooth rod center.
@@ -1077,8 +1075,6 @@
   #else
     // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
     #define PRINTABLE_RADIUS       90.0   // (mm)
-    // Maximum reachable area
-    #define DELTA_MAX_RADIUS       90.0   // (mm)
     // Center-to-center distance of the holes in the diagonal push rods.
     #define DELTA_DIAGONAL_ROD 218.0      // (mm)
     // Horizontal distance bridged by diagonal push rods when effector is centered.

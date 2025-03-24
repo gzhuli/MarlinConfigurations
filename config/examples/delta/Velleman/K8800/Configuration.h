@@ -1051,9 +1051,6 @@
   // Horizontal offset of the universal joints on the carriages.
   #define DELTA_CARRIAGE_OFFSET    23.777 // (mm)
 
-  // Maximum reachable area
-  #define DELTA_MAX_RADIUS        140.0   // (mm)
-
   // Center-to-center distance of the holes in the diagonal push rods.
   #define DELTA_DIAGONAL_ROD      207.0   // (mm)
 

@@ -3001,7 +3001,7 @@
 
   #define HOLD_MULTIPLIER    1.0  // Scales down the holding current from run current
 
-  //#define EDITABLE_HOMING_CURRENT   // Add a G-code and menu to modify the Homing Current
+  #define EDITABLE_HOMING_CURRENT     // Add a G-code and menu to modify the Homing Current
 
   /**
    * Interpolate microsteps to 256
@@ -3030,10 +3030,8 @@
   #endif
 
   #if AXIS_IS_TMC_CONFIG(Y)
-    //#define Y_CURRENT       348
-    #define Y_CURRENT       500 // custom
-    //#define Y_CURRENT_HOME  182
-    #define Y_CURRENT_HOME  260  // custom
+    #define Y_CURRENT       500 // Standard = 348
+    #define Y_CURRENT_HOME  260 // Standard = 182
     #define Y_MICROSTEPS     16
     #define Y_RSENSE       0.22
     #define Y_CHAIN_POS      -1

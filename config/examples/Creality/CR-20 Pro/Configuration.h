@@ -1992,7 +1992,7 @@
   //#define WATCH_ALL_RUNOUT_SENSORS      // Execute runout script on any triggering sensor, not only for the active extruder.
                                           // This is automatically enabled for MIXING_EXTRUDERs.
 
-  #define FIL_RUNOUT_PIN 2 // Creality CR20-S stock sensor
+  #define FIL_RUNOUT_PIN 2 // X_MAX_PIN - Creality CR20-S stock sensor
 
   // Override individually if the runout sensors vary
   //#define FIL_RUNOUT1_STATE LOW
